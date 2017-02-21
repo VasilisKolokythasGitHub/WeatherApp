@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weatherous</string>
+    <string name="action_settings">Settings</string>
+    <string name="cancel" />
+    <string name="GPSAlertDialogMessage" />
+    <string name="GPSAlertDialogTitle" />
+</resources>
