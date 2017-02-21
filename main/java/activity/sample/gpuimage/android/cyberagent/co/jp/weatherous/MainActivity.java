@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener{
                 swipeView.setRefreshing(true);
                 getData task = new getData();
 
-                task.execute("http://api.openweathermap.org/data/2.5/weather?lat=" + finalLat + "&lon=" + finalLon + "&APPID=efc2d2b00508e776955a9423ac6bf829");
+                task.execute("http://api.openweathermap.org/data/2.5/weather?lat=" + finalLat + "&lon=" + finalLon + "&APPID=YOUR-APP-ID-HERE");
                 swipeView.setRefreshing(false);
 
             }
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener{
 
 
         getData task = new getData();
-        task.execute("http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=efc2d2b00508e776955a9423ac6bf829");
+        task.execute("http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=YOUR-APP-ID-HERE");
 
 
 
